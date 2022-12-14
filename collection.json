@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "5739c7f9-2945-4543-91f9-5ab886e3b9ed",
+		"name": "first_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24920830"
+	},
+	"item": [
+		{
+			"name": "https://api.github.com/users/janbodnar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/janbodnar",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"janbodnar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.coindesk.com/v1/bpi/currentprice.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.coindesk.com/v1/bpi/currentprice.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"coindesk",
+						"com"
+					],
+					"path": [
+						"v1",
+						"bpi",
+						"currentprice.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
