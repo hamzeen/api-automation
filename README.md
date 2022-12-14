@@ -6,7 +6,7 @@ automate execution of postman collections
 ```sh
 npm install
 ```
-* add your postman collection
+* add your postman collection  
 by default it uses collection.json
 
 # running
