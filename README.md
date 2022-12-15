@@ -22,5 +22,5 @@ npm run api-test
 
 ### 2.2. Concurrently run multiple collections  
 ```sh
-npm run concurrent
+npm run test-all
 ```  
