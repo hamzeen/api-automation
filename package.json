@@ -22,8 +22,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-test1": "newman run collection.json",
-    "api-test2": "newman run collection1.json",
+    "api-test1": "newman run collection1.json",
+    "api-test2": "newman run collection2.json",
     "concurrent": "concurrently \"npm run api-test1\" \"npm run api-test2\""
   },
   "keywords": [],
