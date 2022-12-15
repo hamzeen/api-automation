@@ -2,11 +2,11 @@
 automate execution of postman collections
 
 # setup
-* install newman
+## install newman
 ```sh
 npm install
 ```
-* add your postman collection  
+## add your postman collection  
 ```js
 default file: collection.json
 ```
