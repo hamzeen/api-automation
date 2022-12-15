@@ -12,6 +12,12 @@ default file(s): collection1.json, collectin2.json
 ```
 
 # 2. running
+
+### 2.1. Single Collection
 ```sh
 npm run api-test
+```
+### 2.2. Concurrently run multiple collections
+```sh
+npm run concurrent
 ```
