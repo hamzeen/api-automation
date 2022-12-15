@@ -1,17 +1,17 @@
 # api-automation
 automate execution of postman collections
 
-# setup
-## install newman
+# 1. setup
+## 1.1. install dependencies
 ```sh
 npm install
 ```
-## add your postman collection  
+## 1.2. Add the postman collections 
 ```js
-default file: collection.json
+default file(s): collection1.json, collectin2.json
 ```
 
-# running
+# 2. running
 ```sh
 npm run api-test
 ```
