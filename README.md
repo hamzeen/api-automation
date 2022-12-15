@@ -10,7 +10,7 @@ npm install
 
 ### 1.2. Add the postman collections  
 ```js
-this repo has these files: collection1.json, collection2.json
+sample collections: collection1.json, collection2.json
 ```  
 
 # 2. running  
