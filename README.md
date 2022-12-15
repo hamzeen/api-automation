@@ -20,7 +20,7 @@ sample collections: collection1.json, collection2.json
 npm run api-test
 ```  
 
-### 2.2. Concurrently run multiple collections  
+### 2.2. Multiple Collections  
 ```sh
 npm run test-all
 ```  
