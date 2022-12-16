@@ -5,23 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-test": "newman run collection.json"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "newman": "^5.3.2"
-  }
-}
-
-{
-  "name": "api_automation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "api-test1": "newman run collection1.json",
     "api-test2": "newman run collection2.json",
     "test-all": "concurrently \"npm run api-test1\" \"npm run api-test2\""
